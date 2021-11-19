@@ -1,9 +1,45 @@
 <!DOCTYPE html>
 <html>
 <body>
+<style>
+  body{
+  background: black;
+  margin:0;
+  padding:0;
+  margin-left:35%;
+  margin-right:auto;
+  margin-top:15px;
+}
+#AQ {
+  color:black;
+  background:yellow;
+  border: 0 0 3px black;
+  
+}
+#AQ:before {
+  color:black;
+  background:yellow;
+  border: 0 0 3px black;
+  
+}
+#AQ:hover::before {
+  color:black;
+  background:yellow;
+  border: 0 0 3px black;
+  
+}
+#AQ:hover {
+  color:yellow;
+  background:black;
+  border: 0 0 3px yellow;
+  text-shadow: 0 0 5px yellow;
+  box-shadow: 0 0 8px yellow;
+}
 
+  </style>
+  
 <div style="background-color:black;color:white;padding:20px;">
-  <h2>App.js</h2>
+  <h2 id="AQ" >App.js</h2>
   <p>The app.js file is a basic javascript react file which can be used to execute a program on the npm/npx or yarn builds.</p>
   <p>The app can only be executed by installing expo clients and global npm or yarn builds.</p>
 </div> 
