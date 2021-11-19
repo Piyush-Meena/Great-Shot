@@ -1,0 +1,33 @@
+body{
+  background: black;
+  margin:0;
+  padding:0;
+  margin-left:35%;
+  margin-right:auto;
+  margin-top:15px;
+}
+#AQ {
+  color:black;
+  background:yellow;
+  border: 0 0 3px black;
+  
+}
+#AQ:before {
+  color:black;
+  background:yellow;
+  border: 0 0 3px black;
+  
+}
+#AQ:hover::before {
+  color:black;
+  background:yellow;
+  border: 0 0 3px black;
+  
+}
+#AQ:hover {
+  color:yellow;
+  background:black;
+  border: 0 0 3px yellow;
+  text-shadow: 0 0 5px yellow;
+  box-shadow: 0 0 8px yellow;
+}
